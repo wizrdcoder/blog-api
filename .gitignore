@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ignore assets
+staticfiles/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# Database files
+*.sqlite3
+
+# media files
+media/
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.DS_Store 
+
+# FastAPI specific files
+*.migrations/
+__pycache__/
+*.pyd
+
+# Docker
+docker-compose.override.yml
+
+# VS Code
+.vscode/
+history/
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# System Files
+Thumbs.db
+ehthumbs.db
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Environment variables
+.env
+
+# Coverage
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Mac OS
+.DS_Store
